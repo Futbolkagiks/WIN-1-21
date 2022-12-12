@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link
+	href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600'
+	rel='stylesheet' type='text/css'>
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+	rel="stylesheet">
+<link rel="stylesheet" href="client-form-style.css">
+</head>
+<body>
+	<div class="main-block">
+		<h1>Order Form</h1>
+		<form action="/">
+			<div class="info">
+				<input class="fname" type="text" name="name" placeholder="Full name">
+				<input type="email" name="email" placeholder="Email"> <input
+					type="text" name="phumber" placeholder="Phone number"> <input
+					type="text" name="addr" placeholder="Address"> <input
+					type="text" name="city" placeholder="City/Village"> <input
+					type="text" name="dist" placeholder="District"> <input
+					type="text" name="info" placeholder="Additional info"> <label
+					for="myfile">Upload your passport</label> <input type="file"
+					id="myfile" name="myfile" placeholder="Passport">
+			</div>
+			<h3>Delivery Method</h3>
+			<div class="metod">
+				<div>
+					<input type="radio" value="none" id="radioOne" name="metod" checked />
+					<label for="radioOne" class="radio">For pick up</label>
+				</div>
+				<div>
+					<input type="radio" value="none" id="radioTwo" name="metod" /> <label
+						for="radioTwo" class="radio">For delivery</label>
+				</div>
+			</div>
+			<button href="/" class="button">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
